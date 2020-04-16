@@ -1,0 +1,50 @@
+.img-show-admin {
+    width: 100%;
+}
+
+.show-btn {
+    margin-left: 10px;
+}
+
+.title-btn {
+    align-items: center;
+}
+
+.show-title-container {
+    width: 80%;
+}
+
+.title-show-admin {
+    margin-left: 15px;
+}
+
+.show-btn-container {
+    width: 20%;
+}
+
+@media screen and (max-width: 767px) {
+    .show-title-container {
+        width: 100%;
+    }
+
+    .show-btn-container {
+        width: 100%;
+        margin-bottom: 20px;
+
+        .show-btn {
+            width: 18%;
+            margin: auto;
+        }
+    }
+
+    .img-show-admin {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card-apt-show-sm {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

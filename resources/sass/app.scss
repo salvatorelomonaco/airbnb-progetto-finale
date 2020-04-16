@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito'); //
+// Variables
+@import 'variables'; //
+// Bootstrap
+@import '~bootstrap/scss/bootstrap'; //
+//
+// il mio stile
+@import '_boolbnb_variables.scss';
+@import '_error.scss';
+@import '_common.scss';
+@import '_header.scss';
+@import '_card_apt.scss';
+@import '_show.scss';
+@import '_show_admin.scss';
+@import '_home_public.scss';
+@import '_index.scss';
+@import '_search.scss';
+@import '_control_panel.scss';
+@import '_create.scss';
+@import '_checkout.scss';
+@import '_footer.scss';

@@ -1,0 +1,53 @@
+table tbody tr td a.suspended {
+    background-color: red;
+    border-color: red;
+}
+// a[title="visualizza"].btn-secondary:hover {
+
+#display_apt:hover {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+}
+
+#modify_apt:hover {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+
+#suspend_apt:hover {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+
+#sponsor_apt:hover {
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+}
+
+#sponsored_apt {
+    background-color: transparent;
+    border: 2px solid gray;
+    cursor: not-allowed;
+
+    i {
+        color: $boolbnb_green;
+    }
+}
+
+.trashed_apt {
+    font-style: italic;
+    color: gray;
+}
+
+#display_apt,
+#modify_apt,
+#sponsor_apt,
+#sponsored_apt,
+#suspend_apt {
+    width: 35px;
+    padding: 2px;
+}

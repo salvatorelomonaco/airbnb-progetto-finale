@@ -1,0 +1,52 @@
+/* home pubblica style */
+
+.neon-sponsor {
+    color: #CAEDC8;
+    animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+    0% {
+        color: #CAEDC8;
+    }
+
+    10% {
+        color: #CAEDC8;
+    }
+
+    20% {
+        color: gray;
+    }
+
+    30% {
+        color: $boolbnb_blue;
+    }
+
+    40% {
+        color: #CAEDC8;
+    }
+
+    50% {
+        color: $boolbnb_blue;
+    }
+
+    60% {
+        color: #CAEDC8;
+    }
+
+    70% {
+        color: $boolbnb_blue;
+    }
+
+    80% {
+        color: gray;
+    }
+
+    90% {
+        color: #CAEDC8;
+    }
+
+    100% {
+        color: #CAEDC8;
+    }
+}

@@ -1,0 +1,40 @@
+/* show style */
+.sponsor {
+    background-color: rgba(97, 206, 78, .3);
+}
+
+
+.map img {
+    width: 100%;
+}
+
+.apt-show {
+    border-radius: 5px;
+    margin-top: 15px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.address {
+    margin-top: 30px;
+}
+
+// contenitore x mappa tomtom
+
+#map {
+    width: 100%;
+    height: 320px;
+}
+
+@media screen and (max-width: 766px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    .apt-show-row {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

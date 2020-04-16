@@ -1,0 +1,161 @@
+/* common style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+  padding-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.green {
+    color: $boolbnb_green;
+}
+
+.blue {
+    color: $boolbnb_blue;
+}
+
+.bckg-green {
+    background-color: $boolbnb_green;
+}
+
+.bckg-blue {
+    background-color: $boolbnb_blue;
+}
+
+.wht {
+    color: white;
+}
+
+.sm-margin {
+    margin: 2px;
+}
+
+.margin-top-xl {
+    margin-top: 100px;
+}
+
+.margin-bottom-xl {
+    margin-bottom: 100px;
+}
+
+h5 {
+    color: $boolbnb_green;
+}
+
+.return-button {
+    margin-left: 15px;
+}
+
+.apt-img {
+    width: 200px;
+    height: 130px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.apt-img-lg {
+    width: 50%;
+}
+
+input[id^="service_"] {
+    margin-left: 25px;
+}
+
+.card-apt-show-caract {
+    border: 1px solid $boolbnb_green;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card-apt-show-space {
+    margin-left: 0;
+}
+
+.btn-blue {
+    background-color: $boolbnb_blue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #F8FAFC;
+    border-radius: 5px;
+
+    &:hover {
+        color: white;
+        border: 2px solid $boolbnb_blue;
+        transition: 0.4s ease-in-out;
+    }
+}
+
+.icon-blue {
+    background-color: $boolbnb_blue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid $boolbnb_blue;
+
+    &:hover {
+        background-color: $boolbnb_green;
+        color: white;
+        border: 2px solid $boolbnb_green;
+        transition: 0.4s ease-in-out;
+    }
+}
+
+.btn-green {
+    background-color: $boolbnb_green;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #F8FAFC;
+    border-radius: 5px;
+
+    &:hover {
+        color: white;
+        border: 2px solid $boolbnb_green;
+        transition: 0.4s ease-in-out;
+    }
+}
+
+.green-text {
+    color: white;
+}
+
+.blue-text {
+    color: $boolbnb_blue;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: $boolbnb_blue;
+    border-color: $boolbnb_blue;
+}
+
+.page-link {
+    color: $boolbnb_blue;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.on-hover {
+    transition: 0.3s;
+}
+
+.on-hover:hover {
+    background-color: rgba(27, 60, 89, 0.1);
+    box-shadow: 0 10px 50px -5px rgba(51, 71, 91, 0.12);
+}
+@media screen and (max-width: 568px) {
+    .margin-bottom-xl {
+        margin-bottom: 50px;
+    }
+
+    .margin-top-xl {
+        margin-top: 50px;
+    }
+}

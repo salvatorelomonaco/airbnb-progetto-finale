@@ -1,0 +1,63 @@
+.bckg-container {
+    background-image: url("public/storage/background/apt-collage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 71px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blk-container {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    width: 80%;
+    padding: 30px;
+}
+
+.control-panel {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.eye i {
+    color: $boolbnb_green;
+}
+
+.add i {
+    color: $boolbnb_blue;
+}
+
+.add,
+.eye {
+    background-color: white;
+    border-radius: 3px;
+    width: 46px;
+    height: 46px;
+    padding-top: 9px;
+}
+
+i {
+    font-size: 18px;
+    text-align: center;
+}
+
+.add {
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.eye {
+    padding-left: 6px;
+}
+
+@media screen and (max-width: 332px) {
+    .blk-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .add {
+        margin-left: 15px;
+    }
+}
